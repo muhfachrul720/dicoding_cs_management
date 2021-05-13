@@ -72,10 +72,10 @@ ul {
 
 .box-image img {
     position: absolute;
-    top : 80%;
+    top : 50%;
     left : 50%;
     transform: translate(-50%, -50%);
-    width: 150%;
+    width: 200%;
 }
 
 .desc-image {
