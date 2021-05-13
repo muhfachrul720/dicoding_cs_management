@@ -20,6 +20,13 @@ ul {
     padding:10px;
     background-color: rgb(255,255,255);
     font-weight: bold;
+    cursor: pointer;
+}
+
+.profile-tab ul li:hover {
+    background-color: rgb(217, 162, 130);
+    transition: 0.1s ease;
+    font-size: 20px;
 }
 
 .profile-tab ul li:first-child{
