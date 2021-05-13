@@ -2,14 +2,41 @@ body {
     margin:0;
     padding:0;
     background-color: rgb(49, 54, 58);
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+/* Element */
+
+.profile-card {
+    display: flex;
+    margin: 20vh auto;
+}
+
+.profile-tab ul li {
+    padding:10px;
+    background-color: rgb(255,255,255);
+    font-weight: bold;
+}
+
+.profile-tab ul li:first-child{
+    border-top-right-radius: 3px;
+}
+
+.profile-tab ul li:last-child {
+    border-bottom-right-radius: 3px;
 }
 
 .profile-container {
     width: 250px;
     border : solid 2px rgba(255,255,255,1);
     border-radius: 3px;
+    border-top-right-radius: 0;
     text-align: center;
-    margin: 20vh auto;
+   
 }
 
 .box-image {
