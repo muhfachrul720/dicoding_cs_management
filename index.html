@@ -6,11 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dicoding CS Management</title>
 </head>
+
+<style>
+    body {
+        margin:0;
+        padding:0;
+        background-color: rgb(49, 54, 58);
+    }
+
+    .profile-container {
+        width: 250px;
+        border : solid 2px rgba(255,255,255,1);
+        border-radius: 3px;
+        text-align: center;
+        margin: 20vh auto;
+    }
+
+    .box-image {
+        height: 40vh;
+        overflow: hidden;
+        /* border : solid 1px rgba(0,0,0,0.3); */
+        position: relative;
+    }
+
+    .box-image img {
+        position: absolute;
+        top : 80%;
+        left : 50%;
+        transform: translate(-50%, -50%);
+        width: 150%;
+    }
+
+    .desc-image {
+        padding:20px;
+        background-color:rgb(217, 162, 130);
+    }
+    
+    .desc-image h3 {
+        margin:0;
+    }
+</style>
+
 <body>
     
-    <img src="images/Hutao.jpg" alt="" width="200px"> <br>
-    <small>Wangsheng Parlour 77th Director</small>
-    <h4>Hu Tao</h4>
+    <div class="profile-container">
+        <div class="box-image">
+            <img src="images/67092689_p0_master1200.jpg" alt=""> <br>
+        </div>
+        <div class="desc-image">
+            <small>Wangsheng Parlour 77th Director</small>
+            <h3>Hu Tao</h3>
+        </div>
+    </div>
 
 </body>
 </html>
