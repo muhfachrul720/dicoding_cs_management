@@ -2,7 +2,7 @@ body {
     margin:0;
     padding:0;
     background-color: rgb(49, 54, 58);
-    
+    font-family: sans-serif;
 }
 
 ul {
@@ -10,11 +10,27 @@ ul {
     margin: 0;
 }
 /* Element */
+.container {
+    display: flex;
+    padding: 20vh;
+    justify-content:center;
+}
+
+.profile-detail {
+    width:300px;
+    text-align: justify;
+    padding: 0px 20px;
+    color:white;
+    line-height: 1.3;
+    font-size: 14px;
+    margin-left: 20px;
+    height:52vh;
+    overflow-y:scroll
+}
 
 .profile-card {
     width: 300px;
     display: flex;
-    margin: 20vh auto;
 }
 
 .profile-tab ul li {
