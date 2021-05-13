@@ -12,6 +12,7 @@ ul {
 /* Element */
 
 .profile-card {
+    width: 300px;
     display: flex;
     margin: 20vh auto;
 }
